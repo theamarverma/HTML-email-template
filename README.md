@@ -3,7 +3,7 @@
 + First you have to replace your gmail and password from the code 
 + default password might not work on nodemailer 
 + then you have to check your google account 
-+ there should be 2fa on
++ 2 factor authentication should be "ON" for your gmail account
 + then you have to create a app password [App Password](https://myaccount.google.com/apppasswords "direct link")
 + after that paste that code in a script 
 # HTML email template starter
