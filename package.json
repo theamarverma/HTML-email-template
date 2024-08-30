@@ -10,9 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "dotenv": "^16.4.5",
     "googleapis": "^143.0.0",
-    "mjml": "^4.15.3",
     "nodemailer": "^6.9.14"
   }
 }
