@@ -1,3 +1,11 @@
+> npm i || npm install
+`how to use the script`
++ First you have to replace your gmail and password from the code 
++ default password might not work on nodemailer 
++ then you have to check your google account 
++ there should be 2fa on
++ then you have to create a app password [App Password](https://myaccount.google.com/apppasswords "direct link")
++ after that paste that code in a script 
 # HTML email template starter
 ```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
