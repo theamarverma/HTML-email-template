@@ -11,7 +11,7 @@ var transporter = nodemailer.createTransport({
 		pass: '',
 	},
 	tls: {
-		rejectUnauthorized: false, // this helps if you're facing issues with self-signed certificates
+		rejectUnauthorized: true, // this helps if you're facing issues with self-signed certificates
 	},
 });
 // async..await is not allowed in global scope, must use a wrapper
