@@ -7,8 +7,8 @@ var transporter = nodemailer.createTransport({
 
 	auth: {
 		//replace your code
-		user: '',
-		pass: '',
+		user: process.env.EMAIL,
+		pass: process.env.PASSWORD,
 	},
 	tls: {
 		rejectUnauthorized: true, // this helps if you're facing issues with self-signed certificates
@@ -18,8 +18,8 @@ var transporter = nodemailer.createTransport({
 async function main() {
 	// send mail with defined transport object
 	const info = await transporter.sendMail({
-		from: '"Amar 👻" <arvsayhi@gmail.com>', // sender address
-		to: 'skjesintanbir@gmail.com, amarverma.lnct@gmail.com', // list of receivers
+		from: process.env.SENDER_EMAIL, // sender address
+		to:process.env.process.env , // list of receivers
 		subject: 'Hello ✔', // Subject line
 		text: 'Hello world?', // plain text body
 		html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
